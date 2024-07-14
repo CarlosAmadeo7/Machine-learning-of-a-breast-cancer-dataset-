@@ -11,8 +11,10 @@ The scripts used can be found in this repository. A more detailed explanation of
 3. Pathway analysis of the most relevant genes: Jupyter Notebook ( Python ) script was used to obtain the gene importance ( features ) used by the classification methods and then performed a pathway analysis.
 
 ## Results
-1. Random Forest and Support Vector machines shown to have a better performance than Logistic regression in general. More than 90 % of the samples, from the first two approaches, were predicted correctly.
-2. Using Random Forest, the most 20 representative genes, in the dataset,  were found, and pathway analysis revealed metabolic and molecular pathways that might be altered in each one of the types of cancer. Just two gene sets were studied: GO_Biological_process_2023 and GO_Molecular_Functions_2023.
+1. Random Forest and Support Vector machines were shown to have a better performance than Logistic regression in general. More than 90 % of the samples, from the first two approaches, were predicted correctly.
+2. Using Random Forest, the most 20 representative genes, in the dataset,  were found, and pathway analysis revealed metabolic and molecular pathways that might be altered in each one of the types of cancer. Just two gene sets were used in this study: GO_Biological_process_2023 and GO_Molecular_Functions_2023. Plots are displayed in this script showing the pathways associated with those genes.
 
 ## Future directions
-
+1. For better classification performance, neural networks will be used and added to this repository.
+2. Validation of this model with other breast cancer datasets will be performed and added to this repository.
+3. Finally, a multi-omics integration will be performed and will be added to this repository. 
