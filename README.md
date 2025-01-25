@@ -18,3 +18,6 @@ The scripts used can be found in this repository. A more detailed explanation of
 1. For better classification performance, neural networks will be used and added to this repository.
 2. Validation of this model with other breast cancer datasets will be performed and added to this repository.
 3. Finally, a multi-omics integration will be performed and will be added to this repository. 
+
+## License
+MIT
